@@ -1,8 +1,7 @@
-# Build libmlpt.a (no main). Default target is the library.
 CC      ?= gcc
 AR      ?= ar
 ARFLAGS ?= rcs
-CFLAGS  ?= -std=c11 -Wall -Wextra -Wpedantic -O2
+CFLAGS  ?= -std=c11 -Wall -Wextra -Wpedantic -O2 -D_XOPEN_SOURCE=700
 
 ALL_OBJS := mlpt.o
 ALL_HDRS := mlpt.h config.h
