@@ -130,7 +130,7 @@ int allocate_page(size_t start_va) {
 
 /* ------------------------------ Deallocation (Part C) ------------------------------ */
 
-/* Returns 1 if every PTE in tbl is invalid (LSB==0), 0 otherwise. */
+/* Returns 1 if every PTE in tbl is invalid (if least significant bit==0), 0 otherwise. */
 static int table_is_empty(const size_t *tbl) {
     size_t n = entries_per_table();
     for (size_t i = 0; i < n; ++i) {
