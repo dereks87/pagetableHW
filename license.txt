@@ -1,0 +1,18 @@
+I considered the following software licenses:
+
+1) MIT License
+   Summary: Short and permissive; allows use, copy, modify, and redistriute, including proprietary code, as long as the copyright and warranty disclaimer are kept. Simple, compatible with courses.
+
+2) Apache License 2.0 (permissive with patent grant)
+   Summary: Permissive like MIT but adds an express patent license and patnt-termination clause. Good for broader reuse with some patent safety.
+   Factors that mattered: Explicit patent terms, widely accepted in industry.
+
+3) GPL v3.0
+   Summary: Grants rights to use, modify, and redistribute, but works must also be licensed under GPL v3. Includes anti-tivoization provisions.
+   Factors that mattered: Allows for improvements remain to open, but less convenient for integration into proprietary or mixed code.
+
+Chosen license: MIT License
+Reasons:
+- Easiest for course distribution and reuse with minimal obligations
+- Keeps barriers low for graders and classmates who may want to experiment or adapt small parts
+- No copyleft constraints or notice/patent housekeeping needed for this asignment
